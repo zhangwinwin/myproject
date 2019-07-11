@@ -1,0 +1,21 @@
+/**
+ * user
+ */
+export const GET_USER_INFO = "GET_USER_INFO"
+export const CHANGE_USER_TAB = "CHANGE_USER_TAB"
+export const UPDATE_USER_SCROLL = "UPDATE_USER_SCROLL"
+export const USER_LOGIN = "USER_LOGIN"
+export const USER_LOGOUT = "USER_LOGOUT"
+export const GET_MY_MESSAGE = "GET_MY_MESSAGE"
+export const GET_USER_COLLECT = "GET_USER_COLLECT"
+
+/**
+ * topics
+ */
+export const REQUEST_TOPICS = "REQUEST_TOPICE"
+export const REQUEST_TOPIC_DETALS = "REQUEST_TOPIC_DETAILS"
+export const TOPICS_CHANGE_TAB = "TOPICS_CHANGE_TAB"
+export const CHANGE_TABBAR = "CHANGE_TABBAR"
+export const SET_TOPICS_SCROLL = "SET_TOPICS_SCROLL"
+export const SET_TOPIC_SCROLL = "SET_TOPIC_SCROLL"
+export const CHANGE_COLLECT = "CHANGE_COLLECT"
