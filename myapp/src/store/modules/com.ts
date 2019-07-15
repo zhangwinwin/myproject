@@ -1,5 +1,5 @@
 import * as types from '../mutationType'
-import { ActionTree, MutationTree, GetterTree, Mutation } from 'vuex'
+import { ActionTree, MutationTree, GetterTree } from 'vuex'
 import { Com } from '../interface/com'
 
 const state: Com = {
@@ -34,7 +34,7 @@ const getters: GetterTree<Com, any> = {
 const mutations: MutationTree<Com> = {
   [types.COM_LOADING_STATUS](state, status){
     if(state.loading == 0 && !status) {
-      return;
+      return false
     }
     state.loading =status ? ++state.loading : --state.loading;
   },
