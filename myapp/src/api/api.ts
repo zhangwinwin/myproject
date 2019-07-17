@@ -55,7 +55,8 @@ function message (accesstoken: string) {
  * @param {any} form
  * @returns
  */
-function post () {
+function post (data: string) {
+  return request.post('')
 }
 
 /**
